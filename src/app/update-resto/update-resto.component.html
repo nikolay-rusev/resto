@@ -1,1 +1,44 @@
-<h1>update-resto works!</h1>
+<h1>Edit Restaurant!</h1>
+<!--<div *ngIf="alert" class="alert alert-success alert-dismissible fade show" role="alert">-->
+<!--  <strong>Success!</strong> Your data has been saved.-->
+<!--  <button (click)="closeAlert()" type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>-->
+<!--</div>-->
+<form [formGroup]="editResto" (ngSubmit)="updateResto()">
+  <div class="form-group">
+    <label>Name</label>
+    <input
+      name="name"
+      type="text"
+      class="form-control"
+      id="name"
+      placeholder="Enter Name"
+      formControlName="name"
+    />
+    <br />
+  </div>
+  <div class="form-group">
+    <label>Email</label>
+    <input
+      name="email"
+      type="text"
+      class="form-control"
+      id="email"
+      placeholder="Enter Email"
+      formControlName="email"
+    />
+    <br />
+  </div>
+  <div class="form-group">
+    <label>Address</label>
+    <input
+      name="address"
+      type="text"
+      class="form-control"
+      id="address"
+      placeholder="Enter Address"
+      formControlName="address"
+    />
+    <br />
+  </div>
+  <button type="submit" class="btn btn-primary">Update</button>
+</form>
