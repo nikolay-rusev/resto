@@ -1,1 +1,47 @@
 <h1>add-resto works!</h1>
+
+<div class="col-sm-6">
+  <form
+    class="ng-reactive-form"
+    [formGroup]="addResto"
+    (ngSubmit)="collectResto()"
+  >
+    <div class="form-group">
+      <label>Name</label>
+      <input
+        name="name"
+        type="text"
+        class="form-control"
+        id="name"
+        placeholder="Enter Name"
+        formControlName="name"
+      />
+      <br />
+    </div>
+    <div class="form-group">
+      <label>Email</label>
+      <input
+        name="email"
+        type="text"
+        class="form-control"
+        id="email"
+        placeholder="Enter Email"
+        formControlName="email"
+      />
+      <br />
+    </div>
+    <div class="form-group">
+      <label>Address</label>
+      <input
+        name="address"
+        type="text"
+        class="form-control"
+        id="address"
+        placeholder="Enter Address"
+        formControlName="address"
+      />
+      <br />
+    </div>
+    <button [disabled]="addResto.invalid" type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>
