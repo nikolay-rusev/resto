@@ -1,16 +1,16 @@
 {
   "restaurants": [
     {
-      "id": 1,
       "name": "KFC",
-      "address": "noida sector 50",
-      "email": "kfc@test.com"
+      "email": "kfc@test.com",
+      "address": "noida sector 501111",
+      "id": 1
     },
     {
-      "id": 2,
       "name": "OM restaurant",
-      "address": "delhi sector 50",
-      "email": "om@test.com"
+      "email": "om@test.com",
+      "address": "delhi sector 504",
+      "id": 2
     },
     {
       "name": "Mc Donalds restaurant",
