@@ -14,4 +14,11 @@ export class ListRestoComponent implements OnInit {
       this.collection = result;
     });
   }
+
+  deleteResto(id: any) {
+    this.collection.splice(id - 1, 1);
+    this.resto.deleteResto(id).subscribe((data) => {
+      console.warn('result :', data);
+    });
+  }
 }
