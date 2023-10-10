@@ -30,5 +30,19 @@
       "address": "Otec Paisii 5",
       "id": 5
     }
+  ],
+  "users": [
+    {
+      "name": "test",
+      "email": "kfc@test.com",
+      "password": "test",
+      "id": 1
+    },
+    {
+      "name": "anil",
+      "email": "anil@test.com",
+      "password": "test",
+      "id": 2
+    }
   ]
 }
