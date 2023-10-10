@@ -1,6 +1,22 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" },
-    { "id": 2, "title": "json-server", "author": "typicode" }
+  "restaurants": [
+    {
+      "id": 1,
+      "name": "KFC",
+      "address": "noida sector 50",
+      "email": "kfc@test.com"
+    },
+    {
+      "id": 2,
+      "name": "OM restaurant",
+      "address": "delhi sector 50",
+      "email": "om@test.com"
+    },
+    {
+      "name": "Mc Donalds restaurant",
+      "address": "delhi sector 250",
+      "email": "mcd@test.com",
+      "id": 3
+    }
   ]
 }
