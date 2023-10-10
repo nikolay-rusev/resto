@@ -23,6 +23,12 @@
       "email": "hilton@test.com",
       "address": "Sofia, Near NDK",
       "id": 4
+    },
+    {
+      "name": "Natural food",
+      "email": "natural@test.com",
+      "address": "Otec Paisii 5",
+      "id": 5
     }
   ]
 }
